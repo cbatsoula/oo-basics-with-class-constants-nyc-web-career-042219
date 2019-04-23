@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    BRANDS.uniq! #destructively changes the array after shoveli
+    BRANDS.uniq! #destructively changes the array after shovelin'
   end
   # def brand=(brand)
   #   @brand = brand
